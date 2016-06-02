@@ -3,10 +3,9 @@ package com.example.nick.anotherone;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class splash extends Activity {
+public class Another_One extends Activity {
 
 
     // Splash screen timer
@@ -28,7 +27,7 @@ public class splash extends Activity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(splash.this, MainActivity.class);
+                Intent i = new Intent(Another_One.this, MainActivity.class);
                 startActivity(i);
 
                 // close this activity
