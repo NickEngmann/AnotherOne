@@ -11,35 +11,40 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="playGif1"/>
     <com.example.nick.anotherone.GifView2
         android:id="@+id/gif_view2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/gif_view1"
-        android:layout_alignStart="@+id/gif_view1" />
+        android:layout_alignStart="@+id/gif_view1"
+        android:onClick="playGif2"/>
     <com.example.nick.anotherone.GifView3
         android:id="@+id/gif_view3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/gif_view2"
-        android:layout_alignStart="@+id/gif_view2" />
+        android:layout_alignStart="@+id/gif_view2"
+        android:onClick="playGif3"/>
     <com.example.nick.anotherone.GifView4
         android:id="@+id/gif_view4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/gif_view3"
-        android:layout_alignStart="@+id/gif_view3" />
+        android:layout_alignStart="@+id/gif_view3"
+        android:onClick="playGif4"/>
     <com.example.nick.anotherone.GifView5
         android:id="@+id/gif_view5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/gif_view4"
-        android:layout_alignStart="@+id/gif_view4" />
+        android:layout_alignStart="@+id/gif_view4"
+        android:onClick="playGif5"/>
 
     <TextView
         android:layout_width="wrap_content"
