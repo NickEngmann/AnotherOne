@@ -38,8 +38,8 @@ public class GifView extends View{
 		gifInputStream = context.getResources().openRawResource(R.drawable.khaled1);
 		
 		gifMovie = Movie.decodeStream(gifInputStream);
-		movieWidth = 1200;
-		movieHeight = 1200;
+		movieWidth = gifMovie.width();
+		movieHeight = gifMovie.height();
 		movieDuration = gifMovie.duration();
 	}
 	
