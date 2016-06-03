@@ -1,6 +1,6 @@
 # AnotherOne
 <img src="https://i.imgur.com/nDsk6za.png" width="400" height="400"/></br>
-Is a fun app I made to express the genuis that is DJ Khaled. This app simply plays different audio clips of DJ Khaled's motivational youtube video. It also has corresponding gif's for an added visual element.
+AnotherOne is a fun app I made to express the genuis that is DJ Khaled. This app simply plays different audio clips of DJ Khaled's motivational youtube video. It also has corresponding gif's for an added visual element.
 <br>
 # Technical Specifications:
 Java based Android KitKat Application (API 19)</br>
